@@ -1,0 +1,33 @@
+Object oriented programming is a type of programming paradigm which is based on the
+concept of objects. Objects correspond to the real world data sometimes and it
+contains the data and code associated with it.
+
+OO is about structuring modules to prevent rigid and fragile code
+
+RIGID CODE:
+Code is too tightly coupled that change in one part of system forces you to make changes in
+other part of the system, Eg: A bridge
+
+FRAGILE CODE:
+A change in one part of system breaks the other part even if they are unrelated
+
+
+--CODE ALWAYS GROWS CODE ALWAYS CHANGES--
+
+Code needs to be refactored from time to time.
+We start with simple script that by the time increases and then we break it into
+its MODULE/PACKAGE that depend on each other and make it more readable.
+
+As time progresses and code increases we tend to break the code into more modules
+but there is a small problem, we need to MANAGE DEPENDENCIES
+
+Change is dangerous when there are too many dependencies therefore
+make a module that has only single responsibility
+
+----------------------------------------------------------------------------------------------------------------
+
+Some problems that are solved by OOP[Object&Classes, Inheritance, Encapsulation, Polymorphism, Composition  ] are:
+Duplicate code
+Coupling
+No single responsibility
+If-else
